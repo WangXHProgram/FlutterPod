@@ -21,16 +21,19 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/911897896@qq.com/FlutterPodSDK'
+  s.homepage         = 'https://github.com/WangXHProgram/FlutterPod'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { '911897896@qq.com' => '911897896@qq.com' }
-  s.source           = { :git => 'https://github.com/911897896@qq.com/FlutterPodSDK.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/WangXHProgram/FlutterPod.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '9.0'
 
-  s.source_files = 'FlutterPodSDK/Classes/**/*'
+  s.source_files = 'FlutterPodSDK/Classes/**/*.{h,m}'
+  s.vendored_frameworks = 'FlutterPodSDK/Classes/*.framework'
+  
+   s.public_header_files = 'FlutterPodSDK/Classes/**/*.{h}'
   
   # s.resource_bundles = {
   #   'FlutterPodSDK' => ['FlutterPodSDK/Assets/*.png']

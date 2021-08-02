@@ -1,0 +1,27 @@
+PODS:
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - FlutterPodSDK (0.1.0)
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - FlutterPodSDK (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - FBSnapshotTestCase
+
+EXTERNAL SOURCES:
+  FlutterPodSDK:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  FlutterPodSDK: 5f67a206b1448dd3245ed74f7661b69322727ad1
+
+PODFILE CHECKSUM: e7752b814db6187813ae2a51607a4c210ae844f1
+
+COCOAPODS: 1.9.1

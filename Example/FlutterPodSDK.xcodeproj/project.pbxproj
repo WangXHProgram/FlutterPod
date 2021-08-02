@@ -23,6 +23,9 @@
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
+		B65F7A0526B7D46500C458ED /* JTDFlutterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B65F7A0426B7D46500C458ED /* JTDFlutterViewController.m */; };
+		B65F7A0926B7DE3100C458ED /* JTDNativeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B65F7A0726B7DE3100C458ED /* JTDNativeViewController.m */; };
+		B65F7A0A26B7DE3100C458ED /* JTDNativeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B65F7A0826B7DE3100C458ED /* JTDNativeViewController.xib */; };
 		D435F9E5C9A7AFB032A0A3CA /* Pods_FlutterPodSDK_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FBBAF02154649F45798C01B /* Pods_FlutterPodSDK_Example.framework */; };
 /* End PBXBuildFile section */
 
@@ -63,10 +66,15 @@
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		C5F62549B50828B4C7B3A42A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		B65F7A0326B7D46500C458ED /* JTDFlutterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JTDFlutterViewController.h; sourceTree = "<group>"; };
+		B65F7A0426B7D46500C458ED /* JTDFlutterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JTDFlutterViewController.m; sourceTree = "<group>"; };
+		B65F7A0626B7DE3100C458ED /* JTDNativeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JTDNativeViewController.h; sourceTree = "<group>"; };
+		B65F7A0726B7DE3100C458ED /* JTDNativeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JTDNativeViewController.m; sourceTree = "<group>"; };
+		B65F7A0826B7DE3100C458ED /* JTDNativeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = JTDNativeViewController.xib; sourceTree = "<group>"; };
+		C5F62549B50828B4C7B3A42A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		D31BD9F5890919AA2AABD1CC /* Pods_FlutterPodSDK_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FlutterPodSDK_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		DAEFCFE475C5600B6EEA8AB3 /* FlutterPodSDK.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = FlutterPodSDK.podspec; path = ../FlutterPodSDK.podspec; sourceTree = "<group>"; };
-		DB5905DBE42A4B953F42B524 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		DAEFCFE475C5600B6EEA8AB3 /* FlutterPodSDK.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = FlutterPodSDK.podspec; path = ../FlutterPodSDK.podspec; sourceTree = "<group>"; };
+		DB5905DBE42A4B953F42B524 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,7 +111,6 @@
 				31841B5E18DC2335B11ABC33 /* Pods-FlutterPodSDK_Tests.debug.xcconfig */,
 				25E3BDAA8C7D7B5A8F8D770A /* Pods-FlutterPodSDK_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -149,6 +156,11 @@
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
 				6003F5A5195388D20070C39A /* JTDViewController.h */,
 				6003F5A6195388D20070C39A /* JTDViewController.m */,
+				B65F7A0326B7D46500C458ED /* JTDFlutterViewController.h */,
+				B65F7A0426B7D46500C458ED /* JTDFlutterViewController.m */,
+				B65F7A0626B7DE3100C458ED /* JTDNativeViewController.h */,
+				B65F7A0726B7DE3100C458ED /* JTDNativeViewController.m */,
+				B65F7A0826B7DE3100C458ED /* JTDNativeViewController.xib */,
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
@@ -249,6 +261,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = "911897896@qq.com";
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = QHFZRN7A8S;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -259,6 +274,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -278,6 +294,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B65F7A0A26B7DE3100C458ED /* JTDNativeViewController.xib in Resources */,
 				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
 				71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
@@ -365,10 +382,14 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-FlutterPodSDK_Example/Pods-FlutterPodSDK_Example-frameworks.sh",
+				"${PODS_ROOT}/../../FlutterPodSDK/Classes/App.framework",
+				"${PODS_ROOT}/../../FlutterPodSDK/Classes/Flutter.framework",
 				"${BUILT_PRODUCTS_DIR}/FlutterPodSDK/FlutterPodSDK.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/App.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Flutter.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FlutterPodSDK.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -383,8 +404,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B65F7A0526B7D46500C458ED /* JTDFlutterViewController.m in Sources */,
 				6003F59E195388D20070C39A /* JTDAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* JTDViewController.m in Sources */,
+				B65F7A0926B7DE3100C458ED /* JTDNativeViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -513,6 +536,8 @@
 			baseConfigurationReference = 123EB55DE3EABD8BF979B892 /* Pods-FlutterPodSDK_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = QHFZRN7A8S;
+				ENABLE_BITCODE = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "FlutterPodSDK/FlutterPodSDK-Prefix.pch";
 				INFOPLIST_FILE = "FlutterPodSDK/FlutterPodSDK-Info.plist";
@@ -529,6 +554,8 @@
 			baseConfigurationReference = 49CF943B3BF6F917847D288E /* Pods-FlutterPodSDK_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = QHFZRN7A8S;
+				ENABLE_BITCODE = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "FlutterPodSDK/FlutterPodSDK-Prefix.pch";
 				INFOPLIST_FILE = "FlutterPodSDK/FlutterPodSDK-Info.plist";

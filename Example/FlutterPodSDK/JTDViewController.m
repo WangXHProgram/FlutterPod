@@ -20,6 +20,15 @@
 	// Do any additional setup after loading the view, typically from a nib.
 }
 
+
+- (IBAction)goToFlutter:(id)sender {
+    
+    UIViewController *VC = [NSClassFromString(@"JTDFlutterViewController") new];
+    [self.navigationController pushViewController:VC animated:YES];
+
+}
+
+
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];

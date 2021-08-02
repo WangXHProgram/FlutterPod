@@ -7,12 +7,25 @@
 //
 
 #import "JTDAppDelegate.h"
+#import "JTDFlutterViewController.h"
 
 @implementation JTDAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    
+//      FlutterViewController * vc = (FlutterViewController *)self.window.rootViewController;
+      
+    JTDFlutterViewController *VC  =[[JTDFlutterViewController alloc] init];
+      
+      self.navigationController = [[UINavigationController alloc] initWithRootViewController:VC];
+      self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+      self.window.rootViewController = self.navigationController;
+      [self.navigationController setNavigationBarHidden:YES animated:YES];
+      [self.window makeKeyAndVisible];
+      
+
     return YES;
 }
 
