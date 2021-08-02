@@ -23,7 +23,6 @@
     
     [GeneratedPluginRegistrant registerWithRegistry:self];
     
-    
     methodChannel = [FlutterMethodChannel methodChannelWithName:@"choose_picture_page" binaryMessenger:self.binaryMessenger];
 
     __weak typeof(self) weakSelf = self;
